@@ -398,7 +398,9 @@ header nav ul li .dropdown li .sub-dropdown li a:hover {
     background: url(../Images/hero-bg.jpg), #000910b3;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-blend-mode: darken;
+    width: 100%;
 }
 
 .hero .hero-content h2 {
@@ -549,6 +551,7 @@ header nav ul li .dropdown li .sub-dropdown li a:hover {
     color: var(--theme-gray);
     background-color: var(--theme-background);
     padding: 60px 0;
+    width: 100%;
 }
 
 .status .status-item {
@@ -717,6 +720,7 @@ header nav ul li .dropdown li .sub-dropdown li a:hover {
 .clients{
     padding: 20px 0;
     background-color: var(--theme-background);
+    width: 100%;
 }
 .clients .client-logo{
     display: flex;
@@ -869,7 +873,9 @@ header nav ul li .dropdown li .sub-dropdown li a:hover {
 .testimonials{
     background: url(../Images/testimonials-bg.jpg),color-mix(in srgb, #000910, transparent 30%);;
     background-size: cover;
+    background-position: center;
     background-blend-mode: darken;
+    width: 100%;
 }
 .testimonials .testimonials-item img{
     width: 100px;
