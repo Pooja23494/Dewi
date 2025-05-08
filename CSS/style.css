@@ -1309,17 +1309,16 @@ header nav ul li .dropdown li .sub-dropdown li a:hover {
 .scroll-top{
     position: fixed;
     opacity: 0;
-    right: 15px;
+    left: calc(95% + 2rem);
     bottom: 15px;
-    z-index: 99999;
     background-color: var(--theme-orange);
-    width: 40px;
-    height: 40px;
-    border-radius: 4px;
-    transition: all 0.4s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 5px;
+    opacity: 0;
+  
 
     animation: showButton linear forwards;
     animation-timeline: view();
